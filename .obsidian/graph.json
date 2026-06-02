@@ -1,0 +1,58 @@
+{
+  "collapse-filter": false,
+  "search": "[\"course\":",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "[\"course\":מכניקה למתמטיקאים",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "[\"course\":אינפי",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    },
+    {
+      "query": "[\"course\":אנליזה",
+      "color": {
+        "a": 1,
+        "rgb": 11392604
+      }
+    },
+    {
+      "query": "[\"course\":תורת הקבוצות",
+      "color": {
+        "a": 1,
+        "rgb": 6054102
+      }
+    },
+    {
+      "query": "[\"course\":אלגברה לינארית",
+      "color": {
+        "a": 1,
+        "rgb": 6084269
+      }
+    }
+  ],
+  "collapse-display": false,
+  "showArrow": false,
+  "textFadeMultiplier": -2.3,
+  "nodeSizeMultiplier": 0.661458333333333,
+  "lineSizeMultiplier": 0.739327683213446,
+  "collapse-forces": false,
+  "centerStrength": 0.645538067089239,
+  "repelStrength": 12.5461149490777,
+  "linkStrength": 0.914464781710704,
+  "linkDistance": 30,
+  "scale": 0.180303803374351,
+  "close": false
+}

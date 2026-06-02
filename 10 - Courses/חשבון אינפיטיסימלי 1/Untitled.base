@@ -1,0 +1,9 @@
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.path.contains("חשבון אינפיטיסימלי 1")
+    order:
+      - file.name
+      - course
