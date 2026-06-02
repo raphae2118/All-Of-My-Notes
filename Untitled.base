@@ -1,9 +1,12 @@
+formulas:
+  Untitled: ""
 views:
   - type: table
     name: Table
     order:
       - file.name
       - file.ctime
+      - reviewed
     sort:
       - property: file.ctime
         direction: ASC
