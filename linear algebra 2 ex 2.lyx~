@@ -319,35 +319,6 @@ today
 
 \begin_layout Section
 שאלה
-\family roman
-\series bold
-\shape smallcaps
-\size larger
-\emph off
-\bar no
-\strikeout off
-\xout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\xout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\numeric off
- 
 \end_layout
 
 \begin_layout Subsection
@@ -459,6 +430,28 @@ P_{0},P_{1}\dots P_{n}\in\mathbb{F}[x]
 \begin_inset Formula 
 \[
 B=(P_{0},P_{1},\dots,P_{n})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+הוכחה:
+\end_layout
+
+\begin_layout Standard
+הבסיס הסטנדרטי ל 
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
 \]
 
 \end_inset
