@@ -487,18 +487,9 @@ a_{i}\\
 
 \begin_layout Standard
 לפיכך נקבל את מטריצת הפולינומים מהנתון 
-\begin_inset Formula 
-\[
-\begin{pmatrix}a_{1,1} & \dots & \dots & \dots & a_{n,1}\\
-0 & \ddots & \dots & \dots & \dots\\
-\vdots & 0 & a_{i,i} & \dots & \vdots\\
-0 & 0 & 0 & \ddots & \dots\\
-0 & 0 & 0 &  & a_{n,n}
-\end{pmatrix}
-\]
+\end_layout
 
-\end_inset
-
+\begin_layout Standard
 
 \end_layout
 
