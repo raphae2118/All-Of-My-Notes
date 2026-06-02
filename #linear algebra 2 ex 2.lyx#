@@ -200,6 +200,14 @@ End
 \begin_body
 
 \begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand input
+filename "lyx templates/MacrosStandard.lyx"
+literal "false"
+
+\end_inset
+
+
 \begin_inset Box Doublebox
 position "t"
 hor_pos "c"
@@ -442,21 +450,60 @@ B=(P_{0},P_{1},\dots,P_{n})
 \end_layout
 
 \begin_layout Standard
-הבסיס הסטנדרטי ל 
-\end_layout
+הבסיס הסטנדרטי ל
+\begin_inset Formula $\kaliField\left[x\right]_{\le n}$
+\end_inset
 
-\begin_layout Standard
+ 
+\backslash
 
-\end_layout
-
-\begin_layout Standard
 \begin_inset Formula 
 \[
+E=\left(x^{n},x^{n-1},\dots,x,1\right)
 \]
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+עבור כל 
+\begin_inset Formula 
+\[
+\left[P_{i}\right]_{E}=\begin{pmatrix}a_{1}\\
+\vdots\\
+a_{i}\\
+0_{1}\\
+\vdots\\
+0_{n-i}
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+לפיכך נקבל את מטריצת הפולינומים מהנתון 
+\begin_inset Formula 
+\[
+\begin{pmatrix}a_{1,1} & \dots & \dots & \dots & a_{n,1}\\
+0 & \ddots & \dots & \dots & \dots\\
+\vdots & 0 & a_{i,i} & \dots & \vdots\\
+0 & 0 & 0 & \ddots & \dots\\
+0 & 0 & 0 &  & a_{n,n}
+\end{pmatrix}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+נשים לב כי כל
 \end_layout
 
 \begin_layout Subsection
@@ -498,10 +545,6 @@ B=(P_{0},P_{1},\dots,P_{n})
 2
 \numeric off
  
-\end_layout
-
-\begin_layout Subsection
-(א)
 \end_layout
 
 \begin_layout Subsection
