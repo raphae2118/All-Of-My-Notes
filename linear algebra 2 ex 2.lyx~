@@ -200,14 +200,6 @@ End
 \begin_body
 
 \begin_layout Standard
-\begin_inset CommandInset include
-LatexCommand include
-filename "MacrosStandard.lyx"
-literal "false"
-
-\end_inset
-
-
 \begin_inset Box Doublebox
 position "t"
 hor_pos "c"
@@ -234,12 +226,13 @@ status open
 \size huge
 (
 \numeric on
-12345
+80135
 \numeric off
-) שם קורס | תרגיל
+) אלגברה לינארית | תרגיל
 \family roman
 \shape up
 \emph off
+\nospellcheck off
 \bar no
 \strikeout off
 \xout off
@@ -248,6 +241,19 @@ status open
 \noun off
 \color none
  
+\family default
+\shape default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
 \end_layout
 
 \begin_layout Plain Layout
@@ -345,7 +351,119 @@ today
 \end_layout
 
 \begin_layout Subsection
-(א)
+(א) 
+\end_layout
+
+\begin_layout Standard
+בלינארית
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\nospellcheck off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\nospellcheck default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ראינו כי
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\mathbb{F}[x]_{\le n}={P\in\mathbb{F}[x]|degP\le n}
+\]
+
+\end_inset
+
+מרחב הפולינומים הוא מרחב ווקטורי ממימד 
+\begin_inset Formula $n+1$
+\end_inset
+
+ יהיו
+\begin_inset Formula 
+\[
+P_{0},P_{1}\dots P_{n}\in\mathbb{F}[x]
+\]
+
+\end_inset
+
+כך שלכל 
+\begin_inset Formula $0\le i\le n$
+\end_inset
+
+ מתקיים כי 
+\begin_inset Formula $degP_{i}=i$
+\end_inset
+
+ הוכיחו כי 
+\begin_inset Formula $B$
+\end_inset
+
+ בסיס ל 
+\begin_inset Formula $\mathbb{F}[x]_{\le n}$
+\end_inset
+
+כאשר
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+B=(P_{0},P_{1},\dots,P_{n})
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
