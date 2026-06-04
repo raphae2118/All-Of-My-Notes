@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "[\"course\":",
+  "search": "[\"course\":null",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -45,7 +45,7 @@
   ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 2.1,
+  "textFadeMultiplier": -1.9,
   "nodeSizeMultiplier": 0.661458333333333,
   "lineSizeMultiplier": 0.739327683213446,
   "collapse-forces": false,
@@ -53,6 +53,6 @@
   "repelStrength": 12.5461149490777,
   "linkStrength": 0.914464781710704,
   "linkDistance": 30,
-  "scale": 0.20587239769251967,
+  "scale": 0.9703605772254046,
   "close": false
 }
