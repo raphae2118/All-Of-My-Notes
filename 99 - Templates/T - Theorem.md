@@ -4,7 +4,7 @@ course:
 chapter: "[[ ]]"
 tags:
 created: "{{date:YYYY-MM-DD}}"
-reviewed: true
+reviewed: false
 ---
 
 # {{title}}
