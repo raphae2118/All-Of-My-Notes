@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "[\"course\":null",
+  "search": "[\"course\":אינפי",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -53,6 +53,6 @@
   "repelStrength": 12.5461149490777,
   "linkStrength": 0.914464781710704,
   "linkDistance": 30,
-  "scale": 0.9703605772254046,
+  "scale": 0.3394184103179631,
   "close": false
 }
