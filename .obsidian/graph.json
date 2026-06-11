@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "[\"course\":אנלי",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -53,6 +53,6 @@
   "repelStrength": 20,
   "linkStrength": 0.276431568972519,
   "linkDistance": 500,
-  "scale": 0.08005863723267563,
-  "close": true
+  "scale": 0.23026170113554434,
+  "close": false
 }
