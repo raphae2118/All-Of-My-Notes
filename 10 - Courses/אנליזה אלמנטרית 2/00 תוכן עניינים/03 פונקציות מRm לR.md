@@ -168,4 +168,9 @@ $$
 $$
 
 באמצעותה נעמוד על מהות ה[[דיפרנציאל בפרקטיקה]]
+ועל כלל ההרכבה בדיפרנציאל:
+$$
+
+\frac{d}{dt} \left( f(x(t), y(t)) \right) \bigg|_{t=t_0} = \underline{\nabla} f \bigg|_{(x_0, y_0)} \cdot \underline{\dot{r}}(t_0) = \frac{\partial f}{\partial x}(x_0, y_0) \frac{dx}{dt} \bigg|_{t_0} + \frac{\partial f}{\partial y} \bigg|_{(x_0, y_0)} \cdot \frac{dy}{dt} \bigg|_{t_0}
+$$
 
