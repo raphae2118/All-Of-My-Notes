@@ -158,3 +158,23 @@ $$
 = |\det D\underline{f}| du \, dv \, dw
 $$
 כלומר ה[[יעקוביאן]] ב$\mathbb{R}^3$ 
+
+---
+
+ניזכר כי הקוארדינטות הפולאריות הקוטביות והגליליות הן בעצם פונקציות נבטא את השטח והנפח של כל אחת מהן.
+תרגיל טוב הוא לעשות את המעברים הללו בעצמך
+
+**א) קוטביות**
+$$
+\begin{pmatrix} x \\ y \end{pmatrix} = \begin{pmatrix} r \cos \theta \\ r \sin \theta \end{pmatrix}, \quad \frac{\partial(x,y)}{\partial(r,\theta)} = r, \quad dA = r \, dr \, d\theta
+$$
+
+**ב) גליליות**
+$$
+\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} \rho \cos \theta \\ \rho \sin \theta \\ z \end{pmatrix}, \quad \frac{\partial(x,y,z)}{\partial(\rho,\theta,z)} = \rho, \quad dV = \rho \, d\rho \, dz \, d\theta
+$$
+
+**ג) כדוריות**
+$$
+\begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} r \sin \phi \cos \theta \\ r \sin \phi \sin \theta \\ r \cos \phi \end{pmatrix}, \quad \frac{\partial(x,y,z)}{\partial(r,\phi,\theta)} = r^2 \sin \phi, \quad dV = r^2 \sin \phi \, dr \, d\phi \, d\theta
+$$
