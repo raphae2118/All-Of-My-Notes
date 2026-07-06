@@ -137,3 +137,24 @@ $$
 $$
 ונגדיר את הדטרמיננטה שלה להיות 
 ה[[יעקוביאן]]
+באמצעותו ניתן גם לבטא את השטח כאמור 
+$$
+	dA = \left| \frac{\partial(x,y)}{\partial(u,v)} \right| du \, dv
+$$
+ניתן להרחיב גם ממד למעלה ולעלות לנפח ב$x,y,z$ כאשר 
+$$
+	m=n=3
+$$
+![[Pasted image 20260706185045.png]]
+נפח המקבילות הנפרש על ידי הווקטורים 
+$$
+\frac{\partial \underline{f}}{\partial u} du, \frac{\partial \underline{f}}{\partial v} dv, \frac{\partial \underline{f}}{\partial w} dw
+$$
+כלומר
+$$
+= \left| \det \left( \frac{\partial \underline{f}}{\partial u} du \ \vdots \ \frac{\partial \underline{f}}{\partial v} dv \ \vdots \ \frac{\partial \underline{f}}{\partial w} dw \right) \right| = \left| \det \left( \frac{\partial \underline{f}}{\partial u} \ \vdots \ \frac{\partial \underline{f}}{\partial v} \ \vdots \ \frac{\partial \underline{f}}{\partial w} \right) \right| du \, dv \, dw
+$$
+$$
+= |\det D\underline{f}| du \, dv \, dw
+$$
+כלומר ה[[יעקוביאן]] ב$\mathbb{R}^3$ 
