@@ -178,3 +178,13 @@ $$
 $$
 \begin{pmatrix} x \\ y \\ z \end{pmatrix} = \begin{pmatrix} r \sin \phi \cos \theta \\ r \sin \phi \sin \theta \\ r \cos \phi \end{pmatrix}, \quad \frac{\partial(x,y,z)}{\partial(r,\phi,\theta)} = r^2 \sin \phi, \quad dV = r^2 \sin \phi \, dr \, d\phi \, d\theta
 $$
+---
+**פונקציה הפכית**
+תהי 
+$$
+	\underline{f}: \mathbb{R}^n \to \mathbb{R}^n
+$$
+כאשר $\underline{f}$ דיפרנציאבילית ב$\underline{u}_{0}$ ; נניח 
+$$
+	\det D\underline{f}
+$$
