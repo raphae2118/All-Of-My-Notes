@@ -186,5 +186,20 @@ $$
 $$
 כאשר $\underline{f}$ דיפרנציאבילית ב$\underline{u}_{0}$ ; נניח 
 $$
-	\det D\underline{f}
+	\det D\underline{f} = \frac{\partial(x_{1},\dots,x_{n})}{\partial(u_{1},\dots u_{n})} \bigg|_{\underline{u}_{0}} \neq 0
 $$
+אזי $\underline{f}$  הפיכה בסביבת $\underline{u}_{0}$, קיימת פונקציה הפכית $\underline{f}^{-1}$ כך ש
+$$ \underline{x} = \underline{f}(\underline{u}) \iff \underline{u} = f^{-1}(\underline{x}) $$
+
+
+בסביבת $\underline{u}_{0}$ $\underline{f}^{-1}$ דיפרנציאבילית ומתקיים 
+$$
+	D\underline{f}^{-1} = (D\underline{f})^{-1}
+$$
+כלומר מטריצת הנגזרת של $\underline{f}^{-1}$ היא המטריצה ההפכית למטריצת הנגזרת של $\underline{f}$ 
+וכך מסומנים היעקוביאן הישיר והיעוקביאן ההפוך
+$$
+	 \frac{\partial(x_{1},\dots,x_{n})}{\partial(u_{1},\dots u_{n})} =
+	 \frac{1}{ \frac{\partial(u_{1},\dots u_{n})}{\partial(x_{1},\dots,x_{n})}}
+$$
+[[דוגמא לפונקציה מR2 לR2]]
