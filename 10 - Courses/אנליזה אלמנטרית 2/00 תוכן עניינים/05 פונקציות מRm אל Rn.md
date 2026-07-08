@@ -219,5 +219,5 @@ $$
 $$
 אזי האינטגרל
 $$
-	I = \iint_{D} \int^{\alpha_{2}(x,y)}_{\alpha_{1}(x,y)} f(x,y,z) dz 
+	I = \iint_{D} \int^{\alpha_{2}(x,y)}_{\alpha_{1}(x,y)} f(x,y,z) dz dxdy
 $$
