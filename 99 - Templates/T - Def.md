@@ -7,5 +7,7 @@ created: <% tp.date.now("Do MMMM YYYY") %>
 ---
 ## <% tp.file.title %>
 ### תנאים
-### קשור אל
+### מאיפה זה בא
+### לאן זה הולך
+
 
