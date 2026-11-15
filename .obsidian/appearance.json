@@ -5,5 +5,6 @@
   "textFontFamily": "David",
   "monospaceFontFamily": "Source Code Pro",
   "baseFontSize": 18,
-  "cssTheme": ""
+  "cssTheme": "",
+  "showRibbon": true
 }
