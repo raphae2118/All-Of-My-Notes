@@ -1,0 +1,15 @@
+views:
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.folder == "99 - Templates"
+    order:
+      - file.name
+      - chapter
+      - course
+      - created
+      - difficulty
+      - type
+      - prev
+      - next
